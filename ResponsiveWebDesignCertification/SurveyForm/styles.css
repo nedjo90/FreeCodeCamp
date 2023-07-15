@@ -1,0 +1,55 @@
+body {
+	margin: 0 auto;
+	background: url(https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz);
+	color: #f0f8ff;
+font-size: 20px;
+}
+
+header {
+	text-align: center;
+}
+
+form {
+	background-color: #1b1b32CC;
+	width: 80vw;
+	margin: auto auto;
+}
+p{
+	margin: 0;
+}
+
+label{
+	margin: 10px 0 5px 0;
+}
+div{
+	margin: 20px 20px;
+}
+input,
+select,textarea {
+	margin: 10px 10px 10px 0;
+	width: 100%;
+	display: block;
+	font-size: inherit;
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+	width: unset;
+	display: inline;
+}
+
+input[type="submit"]{
+color: aliceblue;
+	height: 30px;
+	background-color: rgb(13, 4, 62);
+	border: none;
+	border-color: none;
+	border-radius: 2px;
+}
+.check {
+	display: block;
+}
+.container{
+	padding: 20px 0;
+}
