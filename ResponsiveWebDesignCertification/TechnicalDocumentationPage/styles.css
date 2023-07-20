@@ -1,5 +1,6 @@
 * {
 	font-family: sans-serif;
+	line-height: 1.5em;
 }
 
 html {
@@ -68,11 +69,35 @@ section li:not(:first-of-type) {
 	;
 }
 
+code {
+	display: block;
+	background-color: #eee;
+	border-radius: 3px;
+	font-family: courier, monospace;
+	font-size: 13px;
+	font-weight: lighter;
+	padding: 15px 10px;
+	line-height: 2em;
+}
+
+section {
+	width: auto;
+}
+
+p,
+li {
+	width: auto;
+	white-space: normal;
+}
+
+article {
+	padding-left: 15px;
+}
+
 @media only screen and (max-width: 815px) {
 	#navbar {
 		position: absolute;
 		width: 100%;
-		z-index: -1;
 	}
 
 	#navbar ul {
@@ -93,13 +118,8 @@ section li:not(:first-of-type) {
 	}
 
 	section {
-		width: auto;
-		padding: 10px 40px 0px 40px;
+		padding: 10px 40px 0px 30px;
 	}
 
-	p,
-	li {
-		width: auto;
-		white-space: normal;
-	}
+
 }
